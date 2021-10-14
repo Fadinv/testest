@@ -1,4 +1,5 @@
 {
+  "homepage": "https://fadinv.github.io/testest/",
   "name": "testes",
   "version": "0.1.0",
   "private": true,
@@ -23,6 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build --branch main",
     "eject": "react-scripts eject"
   },
@@ -40,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
