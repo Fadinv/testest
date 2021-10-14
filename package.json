@@ -12,6 +12,7 @@
     "@types/react": "^16.14.17",
     "@types/react-dom": "^16.9.14",
     "@types/react-redux": "^7.1.19",
+    "node-sass": "^4.12.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.5",
@@ -22,6 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -d build --branch main",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

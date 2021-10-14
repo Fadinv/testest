@@ -1,0 +1,23 @@
+.container
+	width: 16px
+	height: 16px
+	border-radius: 50%
+	background-color: aqua
+	padding: 8px
+	transition: outline .3s ease-out
+	outline: 1px solid rgba(#000, 0)
+	cursor: pointer
+
+	path
+		transition: fill .3s ease-out
+		fill: #fff
+
+	&:hover
+		outline: 1px solid red
+
+		path
+			fill: red
+
+.liked
+	path
+		fill: red
